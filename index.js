@@ -64,7 +64,7 @@ const questions = [
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.error('Error!', err) : console.log('See your Logo!'))
+        err ? console.error('Error!', err) : console.log('Generated logo.svg'))
 }
 
 function init() {
