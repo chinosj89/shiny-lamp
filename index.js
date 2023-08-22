@@ -44,12 +44,6 @@ const questions = [
             'White',
             'Black'
         ],
-        validate: (questions, list) => {
-            if (questions['text-color'].length === list) {
-                return new Error('Text color and Background are the same color, please choose something else');
-            }
-            return true;
-        }
     },
     {
         type: 'list',

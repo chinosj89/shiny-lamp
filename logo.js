@@ -11,6 +11,8 @@ function renderShapes(selectedShape) {
             return '';
     }
 }
+
+// swtich statements for background color
 function renderBg(selectedColor) {
     switch (selectedColor) {
         case 'Crimson':
@@ -35,7 +37,7 @@ function renderBg(selectedColor) {
           return '';
     }
 }
-
+// switch statements for text color
 function renderText(selectedColor) {
     switch (selectedColor) {
         case 'Crimson':
@@ -58,6 +60,8 @@ function renderText(selectedColor) {
           return '';
     }
 }
+
+// function to generate svg file
 function generateLogo(data) {
     const shape = renderShapes(data.shapes);
     const bg = renderBg(data.backgroundColor)
