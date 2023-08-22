@@ -1,44 +1,9 @@
-class Shape {
-    constructor() {
-        this.type = '';
-    }
 
-    render() {
-        return '';
-    }
-}
-class Circle extends Shape {
-    constructor() {
-        super();
-        this.type = 'circle';
-    }
+const Circle = require('./lib/circle');
+const Triangle = require('./lib/triangle');
+const Square = require('./lib/square');
+const Shape = require('./lib/shapes')
 
-    render() {
-        return 'circle cx="150" cy="100" r="80"';
-    }
-}
-
-class Triangle extends Shape {
-    constructor() {
-        super();
-        this.type = 'triangle';
-    }
-
-    render() {
-        return 'polygon points="150,20 280,180 20,180"';
-    }
-}
-
-class Square extends Shape {
-    constructor() {
-        super();
-        this.type = 'square';
-    }
-
-    render() {
-        return 'rect x="50" y="50" width="200" height="200"';
-    }
-}
 function renderShapes(selectedShape, data) {
     switch (selectedShape) {
       case 'circle':
