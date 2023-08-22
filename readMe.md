@@ -50,7 +50,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
   Unit Testing for each shapes was done, along with the colors
 
   ## Deployment
-  Since this website will not be deployed; see link for demo: 
+  Since this website will not be deployed; see link for demo: https://drive.google.com/file/d/1Qpxd8GGws1zjB-7D1zzs-K6wobkVk8Ny/view
   
   ## Questions
   ### Github: https://github.com/chinosj89
